@@ -6,3 +6,8 @@
 pubspec.lock
 
 build/
+example/ios/Flutter/flutter_export_environment.sh
+example/lib/generated/i18n.dart
+example/android/res/values/strings_en.arb
+example/android/gradle/wrapper/gradle-wrapper.properties
+.idea/

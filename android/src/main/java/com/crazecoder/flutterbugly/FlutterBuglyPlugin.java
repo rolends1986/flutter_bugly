@@ -40,6 +40,7 @@ public class FlutterBuglyPlugin implements MethodCallHandler {
      * Plugin registration.
      */
     public static void registerWith(Registrar registrar) {
+        // 在调用init方法前设置自定义更新对话框布局
         final MethodChannel channel = new MethodChannel(registrar.messenger(), "crazecoder/flutter_bugly");
         FlutterBuglyPlugin plugin = new FlutterBuglyPlugin(registrar.activity());
         channel.setMethodCallHandler(plugin);
